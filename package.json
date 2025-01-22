@@ -1,0 +1,15 @@
+{
+ "name": "perplexica-frontend",
+ "version": "1.10.0-rc2",
+ "private": true,
+ "scripts": {
+   "dev": "cd ui && npm run dev",
+   "build": "cd ui && npm run build", 
+   "start": "cd ui && npm run start",
+   "install-deps": "cd ui && npm install",
+   "setup": "npm run install-deps && npm run build",
+   "clean": "cd ui && rm -rf .next node_modules",
+   "lint": "cd ui && npm run lint",
+   "format": "cd ui && npm run format:write"
+ }
+}
